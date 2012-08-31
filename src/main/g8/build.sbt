@@ -11,7 +11,7 @@ resolvers := Seq(
 )
 
 libraryDependencies := Seq(
-  "org.scalatest" %% "scalatest" % "1.8" % "test",
+  "org.scalatest" %% "scalatest" % "1.8" % "test"
 )
 
 initialCommands := "import $organization$.$name;format="Camel"$._"
