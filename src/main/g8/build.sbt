@@ -12,7 +12,6 @@ resolvers := Seq(
 
 libraryDependencies := Seq(
   "org.scalatest" %% "scalatest" % "1.8" % "test",
-  "org.scalaz" %% "scalaz-core" % "6.0.4"
 )
 
 initialCommands := "import $organization$.$name;format="Camel"$._"
