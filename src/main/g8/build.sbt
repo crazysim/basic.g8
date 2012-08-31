@@ -10,7 +10,7 @@ resolvers := Seq(
   "Scala Tools Snapshots" at "http://scala-tools.org/repo-snapshots/"
 )
 
-libraryDependencies := Seq(
+libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "1.8" % "test"
 )
 
